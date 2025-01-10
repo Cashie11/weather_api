@@ -47,12 +47,12 @@ python manage.py runserver
 Usage
 Once the server is running, you can test the weather API by sending a GET request to:
 
-ruby
+
 Copy code
 http://127.0.0.1:8000/api/weather/?city=New York
 If you don’t provide a city, it defaults to "London":
 
-ruby
+
 Copy code
 http://127.0.0.1:8000/api/weather/
 Response
